@@ -1,0 +1,107 @@
+
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #eff1fa;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    background-color: #eff1fa;
+    padding: 0 25px; /* Ajuste o padding conforme necessário */
+}
+
+#coluna1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff1fa;
+}
+#mensagem{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#retangulo {
+    width: 300px; /* Ajuste a largura do retângulo conforme necessário */
+    height: 700px; /* Ajuste a altura do retângulo conforme necessário */
+    background-color: #ffffff; /* Cor do retângulo */
+    margin-top: 2px; /* Margem superior para posicionar mais para baixo */
+    display: flex;
+    align-items: center; /* Centralizar verticalmente a imagem */
+    justify-content: center; /* Centralizar horizontalmente a imagem */
+    border-radius: 32px;
+    box-shadow: 5px 5px 5px 5px #cbc4c41c;
+}
+
+#conteudo {
+    width: 900px;
+    height: 100px; 
+    border: none; 
+    outline: none; 
+    padding: 3px; 
+    font-size: 32px; 
+    color: darkblue; 
+    resize: none; 
+    background-color: #eff1fa;
+    margin-bottom: 250px;
+}
+
+textarea#conteudo::placeholder {
+    color: #00008B;
+}
+
+#botoes {
+   
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+#botaoCriptografar, #botaoDescriptografar {
+    
+    background-color: darkblue;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    line-height: 19.36px;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 400;
+    padding: 30px 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 0px;
+    gap : 0px
+}
+
+#aviso
+{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+#botaoDescriptografar {
+    background-color:#D8DFE8; 
+    color: #0A3871;
+    border: 2px solid #0A3871;
+}
+
+#texto__tela {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+#imagem {
+    max-width: 100%;
+    height: auto;
+}

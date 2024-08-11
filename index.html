@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Decodficador de Texto</title>
+</head>
+<body>
+    <header></header>
+
+    <main id = "container">
+
+        <div id = 'coluna1'>
+            <textarea id="conteudo" placeholder="Digite o texto"></textarea>
+
+            <div id = "butao">
+                <p id = "aviso">letras maiúsculas e caracteres especiais não serão aceitos</p>
+                <button id = 'botaoCriptografar'onclick="criptografar()" >Criptografar</button>
+                <button id = 'botaoDescriptografar' onclick="descriptografar()"> Descriptografar</button>
+            </div>
+            
+          
+         </div>
+
+        
+        
+
+        <div id = 'retangulo'>
+            <img id = "imagem" src="img/curioso.png" alt = "imagem de um menino com lupa sentando sobre as pernas e um diamante ao lado.">
+            
+            <div id = "texto__tela"> <p></p></div>
+        </div>
+               
+            
+  
+       
+    </main>
+
+    <footer></footer>
+
+    <script src="mecanismo.js" ></script>
+</body>
+</html>
